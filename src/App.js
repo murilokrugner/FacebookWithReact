@@ -1,10 +1,14 @@
 import React from "react";
-import "../src/css/styles.css";
+import "./App.css";
 
-import TechList from "./components/Feed";
+import Header from "./components/Header";
 
 function App() {
-  return <Feed />;
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
 
 export default App;
